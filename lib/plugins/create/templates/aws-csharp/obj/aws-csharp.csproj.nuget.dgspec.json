@@ -13,15 +13,9 @@
         "packagesPath": "/Users/richard/.nuget/packages/",
         "outputPath": "/Users/richard/Projects/serverless/lib/plugins/create/templates/aws-csharp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/richard/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
+        "fallbackFolders": ["/usr/local/share/dotnet/sdk/NuGetFallbackFolder"],
+        "configFilePaths": ["/Users/richard/.nuget/NuGet/NuGet.Config"],
+        "originalTargetFrameworks": ["netcoreapp2.1"],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -31,9 +25,7 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         }
       },
       "frameworks": {
@@ -54,14 +46,7 @@
               "autoReferenced": true
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
+          "imports": ["net461", "net462", "net47", "net471", "net472", "net48"],
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
